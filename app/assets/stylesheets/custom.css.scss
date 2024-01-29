@@ -1,0 +1,62 @@
+.navbar {background:black !important;}
+
+.navbar-brand, .navbar button, .navbar-toggler, .nav-link {color:white !important;}
+
+#logo {
+    float:left;
+    font-size: 1.7em;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: asset-url('sunset.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    p {
+        padding: 0 120px;
+    }
+
+    button {
+        color:white;
+        border: 2px solid white;
+    }
+}
+
+.card-title  {
+    a {
+        color: #198754; 
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    
+}
+
+.form-container {
+    form {
+        background-color: #F3710A !important;
+    }
+
+    .btn {
+        background-color: white !important;
+        color: #F3710A !important;
+        border: 1px solid white !important;
+    }
+}
+
+html, body {height: 100%;}
+#page-content {flex: 1 0 auto;}
+#sticky-footer {flex-shrink: none; background-color: black;}
+
+
+.error-messages {
+    background: pink;
+    color: red;
+}
