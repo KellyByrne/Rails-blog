@@ -43,6 +43,7 @@ gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+gem 'sass-rails'
 
 group :development, :test do
   gem "sqlite3", "~> 1.4"
@@ -72,3 +73,6 @@ end
 group :production do 
   gem 'pg'
 end
+gem "jsbundling-rails", "~> 1.3"
+
+gem "cssbundling-rails", "~> 1.4"
