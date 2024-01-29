@@ -1,9 +1,11 @@
 <div id="page-content">
     <div class="p-5 mb-4 bg-body-tertiary jumbotron">
         <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold text-center text-white">KB BLOG</h1>
-        <p class="col-md-12 fs-4 text-center text-white">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <div class="col-md-12 d-flex justify-content-center align-content-center "><button class="btn btn-lg" type="button">Sign up!</button></div>
+            <h1 class="display-5 fw-bold text-center text-white">KB BLOG</h1>
+            <p class="col-md-12 fs-4 text-center text-white">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <div class="col-md-12 d-flex justify-content-center align-content-center ">
+                <%= link_to "Sign up!", signup_path, class: "justify-content-center align-content-center btn btn-lg" %>
+            </div>
         </div>
     </div>
     <%= link_to 'Articles Listing', articles_path%>
