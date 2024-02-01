@@ -5,6 +5,9 @@
             <div class="card text-center shadow mb-3 bg-white rounded">
                 <div class="card-header">
                     By: <%= @article.user.username %>
+                    <% if @article.categories.any? %>
+                        <div class="mt-2"><%= render @article.categories %></div>
+                    <% end %>
                 </div>
                 <div class="card-body">
                     <div class="card-text text-left"><%= @article.description %></div>

@@ -2,4 +2,5 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";import * as bootstrap from "bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css";
+// import * as bootstrap from "bootstrap"

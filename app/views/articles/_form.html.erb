@@ -17,6 +17,13 @@
                     </div>
                 </div>
 
+                <div class="form-group row">
+                    <%= f.label :category, class: 'col-2 col-form-label' %>
+                    <div class="col-10">
+                     <%= f.collection_select(:category_ids, Category.all, :id, :name, {prompt: "Please select category/categories"}, {multiple: true, size: 3, class: "form-floating mt-3 shadow rounded col-12"} ) %>
+                    </div>
+                </div>
+
                 <div class="form-group row justify-content-center">
                     <%= f.submit class: "btn btn-md mt-3 col-3"%>
                 </div>
