@@ -46,6 +46,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 gem 'sass-rails'
 gem 'sassc-rails'
+gem 'jquery-rails'
 
 
 group :development, :test do
